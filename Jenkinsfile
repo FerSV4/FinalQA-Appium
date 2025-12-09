@@ -8,7 +8,7 @@ pipeline {
         BROWSERSTACK_USERNAME = credentials('browserstack-username')
         BROWSERSTACK_ACCESS_KEY = credentials('browserstack-access-key')
         
-        APP_PATH='bs://e3b5a78cd2b38302b66e8f56bebaba6f5647ee9d'
+        APP_PATH='bs://ceae4361512f3566207f76ab6e3ef40ab507b23f'
     }
 
     stages {
@@ -22,7 +22,7 @@ pipeline {
         
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/henrrycoronado/ExamenFinal_QA.git'
+                git branch: 'master', url: 'https://github.com/FerSV4/FinalQA-Appium.git'
             }
         }
 
