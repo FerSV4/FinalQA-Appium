@@ -57,6 +57,8 @@ export const config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
+        "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity",
+        
         'bstack:options': {
             deviceName: 'Google Pixel 9',
             platformVersion: '16.0',

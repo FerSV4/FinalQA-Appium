@@ -55,7 +55,8 @@ export const config = {
   "appium:platformVersion": "16.0",
   "appium:deviceName": "Medium Phone API 36.0",
   "appium:automationName": "UiAutomator2",
-  "appium:app": "C:\\Users\\ASUS\\Downloads\\TheApp.apk"
+  "appium:app": "C:\\Users\\ASUS\\Downloads\\SauceLabs.apk",
+  "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity"
 }],
 
     //
